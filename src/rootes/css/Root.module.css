@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    width: 945px;
+    height: 605px;
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    gap: 102px ;
+    border-radius: 15px;
+}
