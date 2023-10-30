@@ -1,0 +1,89 @@
+.cards{
+    margin-top: 45px;
+    display: flex;
+    gap: 20px;
+}
+
+.cardcontaienr {
+    border: 1px solid hsl(229, 24%, 87%);
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 120px;
+    padding: 15px 20px;
+}
+
+.cardinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.cardinfo h3{
+    color: hsl(213, 96%, 18%);
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 46px;
+
+}
+.cardinfo p{
+color: hsl(231, 11%, 63%);
+font-size: 14px;
+}
+.cardinfoyear {
+    color:  hsl(213, 96%, 18%);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.actioncontainer {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: hsl(231, 100%, 99%);
+    height: 45px;
+    border-radius: 15px;
+
+}
+.actionbutton {
+    display: flex;
+    align-items: center;
+    background-color:  hsl(213, 96%, 18%);
+    height: 20px;
+    width: 45px;
+    border-radius: 10px;
+    justify-content: flex-start;
+    padding-left: 5px ;
+}
+.actionbutton.year{
+    justify-content: flex-end;
+    padding-right: 5px ;
+
+}
+
+.actionbutton span {
+    background-color: #fff;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+.actioncontainer p {
+    color:  hsl(231, 11%, 63%);
+    font-size: 18px;
+    font-weight: 700;
+}
+.actioncontainer p.monthactive {
+    color:  hsl(213, 96%, 18%);
+    
+}
+.cardcontaienr:hover{
+    background-color:hsl(231, 100%, 99%);
+    border: 1px solid hsl(243, 100%, 62%);
+}
+.cardcontaienr.SelectedPlan {
+    background-color:hsl(231, 100%, 99%);
+    border: 1px solid hsl(243, 100%, 62%);
+}

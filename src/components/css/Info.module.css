@@ -18,6 +18,9 @@
 
 .inputcontainer label{
  font-size: 14px;
+ color:  hsl(213, 96%, 18%);
+ text-transform: capitalize;
+ font-weight: 500;
 }
 
 .inputcontainer input {

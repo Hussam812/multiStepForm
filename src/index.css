@@ -18,7 +18,15 @@
   padding: 0;
 }
 label {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+small{
+  color: var(--Strawberry-red);
+  font-size: 14px;
+  font-weight: 700;
 }
 input, button {
   outline: none;
@@ -28,13 +36,17 @@ body {
   display: flex;
   align-items: center ;
   justify-content: center;
-  height: 810px ;
-  width: 1440px;
+  height: 100vh;
+  width: 100vw;
   background-color: var(--Magnolia);
   box-sizing: border-box;
   font-family: 'Ubuntu',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.active-state {
+  background-color: hsl(206, 94%, 87%);
+
 }
 .page-container{
   height: 567px;
@@ -79,7 +91,26 @@ body {
   height: 48px;
   width: 123px ;
   border-radius: 10px;
+  font-size: 16px;
 
+}
+
+.back-btn {
+  color: var(--Cool-gray);
+  background-color: none;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  align-self: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.back-btn:hover {
+  color: var(--Marine-blue);
+  scale: 1.1;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
