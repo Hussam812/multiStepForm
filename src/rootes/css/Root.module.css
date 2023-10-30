@@ -9,3 +9,15 @@
     gap: 102px ;
     border-radius: 15px;
 }
+
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) {
+    .container{
+        background: none;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        padding: unset;
+        gap: unset;
+        border-radius: unset;
+    }
+}

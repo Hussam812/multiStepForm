@@ -65,3 +65,38 @@
     text-transform: uppercase;
 
 }
+
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) {
+    .container {
+        height: 170px;
+        width: 100vw;
+        background-image:url("../../assets/images/bg-sidebar-mobile.svg") ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: unset;
+
+    }
+
+    
+.navlist {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+.navitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    width: min-content;
+}
+
+}
+.stepcontainer{
+    display: none;
+}
+}
